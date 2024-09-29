@@ -1,3 +1,28 @@
+/*Learning Objectives:
+
+Implement a Java program that accepts command line arguments with appropriate error handling.
+Write code that reads input data from a CSV file to construct a multidimensional array with appropriate error handling.
+Demonstrate an understanding of functional decomposition by implementing separate methods for file I/O and array processing.
+
+The starter code is provided for this project. You can download the file here - Project1.java Download Project1.java 
+
+You will implement the methods to provide the functionality described in this document and in the comments in the starter code. 
+
+All classes will be graded using a JUnit test suite, so the method headings for all methods need to match the test class exactly. 
+Therefore, you are not to change any method headers or package statements.
+
+Your source code file name should be Project1.java.  It must be located in the cmsc256 package as indicated in the starter code file.
+
+ A sample input file is provided but your code should be flexible enough to run with a different data file. You can download the input file here - 
+ 500_Person_Age_Height_Weight.csv Download 500_Person_Age_Height_Weight.csv 
+
+The Project1 program is to:
+
+Read in the input file creating a 2-dimensional String array from the data contained in the lines of the file using the designated methods to provide the functionality
+Implement the functionality listed for each method
+Make sure your program is well documented - including the comment block header at the top of all of the source code files with your name, the course number and name, the project name, the program purpose. 
+Be sure to include appropriate comments throughout your code, choose meaningful identifiers, and use indentation as shown in your textbook and in class.
+*/
 package cmsc256;  // do not remove or comment out this statement
 
 import java.io.File;
