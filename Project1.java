@@ -1,4 +1,6 @@
-/*Learning Objectives:
+/*
+Programming Project 1 - Command Line Arguments with Error Handling.
+Learning Objectives:
 
 Implement a Java program that accepts command line arguments with appropriate error handling.
 Write code that reads input data from a CSV file to construct a multidimensional array with appropriate error handling.
