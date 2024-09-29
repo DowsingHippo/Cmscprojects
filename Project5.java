@@ -1,4 +1,6 @@
 /*
+Programming Project 5 - Implementing a Binary Tree
+
 In this project you will implement an arithmetic expression tree using bridges.base.BinTreeElement<E> as the node. 
 (For more information, check out this tutorial - http://bridgesuncc.github.io/tutorials/BinTree.html) To do so, you will accomplish the following tasks:
 
