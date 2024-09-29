@@ -1,4 +1,6 @@
 /*
+Programming Project 6 - Implementing MyCustomGraph
+
 In this project, you’ll begin with starter code for a Graph interface, an Edge class, and a class that represents an unweighted graph, UnweightedGraph.java.  
 You may clone the starter code from this GitHub repository, https://github.com/DebMDuke/Project6-Spring2022.gitLinks to an external site.
 
