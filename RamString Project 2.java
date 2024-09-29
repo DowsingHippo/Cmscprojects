@@ -1,4 +1,6 @@
 /*
+Programming Project 2 - Implementing an Interface.
+
 Program:          RamString implementation of the WackyStringInterface
 
 
