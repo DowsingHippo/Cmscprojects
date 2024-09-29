@@ -1,4 +1,99 @@
 /*
+Programming Project 4 – Custom Stack Implementation
+
+In this project you will implement a linked node Stack using the Bridges SLelement<E>.
+
+You will write a generic MyStack<E> class that implements the StackInterface<E> Download StackInterface<E>shown here:
+package cmsc256;
+
+public interface StackInterface<E> {
+
+   /** Adds a new entry to the top of this stack.
+
+       @param newEntry  an object to be added to the stack. 
+
+   public void push(E newEntry);
+
+ 
+
+   /** Removes and returns this stack's top entry.
+
+       @return  the object at the top of the stack.
+
+       @throws  java.util.EmptyStackException if the stack is empty. 
+
+   public E pop();
+
+ 
+
+   /** Retrieves this stack's top entry.
+
+       @return  the object at the top of the stack.
+
+       @throws  java.util.EmptyStackException if the stack is empty.  
+
+   public E peek();
+
+ 
+
+   /** Detects whether this stack is empty.
+
+       @return  True if the stack is empty. 
+
+   public boolean isEmpty();
+
+ 
+
+   /** Removes all entries from this stack. 
+
+   public void clear();
+
+}
+
+The class will use the BRIDGES SLelement<E> class to represent a node in the stack.
+Delimiters called tags are used to format static html pages. These tags must be paired correctly but can be nested inside other tags. 
+For example, an open paragraph tag, <p> must correspond to a close paragraph tag, </p>. In addition, pairs of tags must not intersect. 
+Thus, an html web page can contain a sequence of tags along with nested tag, such as:
+<html>
+<body>
+
+<h1>My First Heading</h1>
+<p>My first paragraph.</p>
+
+</body>
+</html>
+
+but not intersecting tags as shown here with the h1, p, and body tags.
+
+<html>
+<body>
+
+<h1>My First Heading
+<p></h1>My first paragraph.
+
+</body></p>
+</html>
+
+For convenience, we will say that a balanced expression contains delimiters that are paired correctly or are balanced. To simplify the implementation, 
+valid tags consist of a pair (no <br/> allowed here) The difference between the opening tag and the closing tag is that the closing tag has the additional character of ‘/’ immediately after the first angle bracket.
+
+You are to write a static method in your MyStack class that uses your MyStack <E> to detect whether an html file is tag balanced. The method should have the following heading:
+
+public static boolean isBalanced(File webpage) throws FileNotFoundException
+
+Your MyStack  class must be written in a cmsc256 package and will be uploaded to Gradescope for grading.
+
+Follow the Coding Style Guideline in Canvas and include a comment block that includes your name, the name of the project along with the file name and
+a brief description of the purpose of the class at the top of the source code file that you submit.
+
+Here are some sample html pages to use to test your program:
+
+1goodeasypage.htmlDownload 1goodeasypage.html
+2badeasypage.html Download 2badeasypage.html 
+*/
+
+
+/*
 Logan Miller
 CMSC 256
 4/18/2022
