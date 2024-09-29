@@ -1,4 +1,36 @@
 /*
+Program:          RamString implementation of the WackyStringInterface
+
+
+Develop a Java class called RamString that correctly implements the WackyStringInterface Download WackyStringInterface.
+(The semantics of the methods in the interface can be determined from their name and from the Javadoc comments in the code. If not, please ask for clarification on the Discussion Board forum.)
+
+Add two public constructors to your RamString class – one with a single string argument and a second, no-arg constructor.
+The no-argument constructor should set the instance variable to the string, "Rodney, the Ram" and the value of the string should never allow to be null.
+
+Important note: This project is focused on character and String manipulation and you are not allowed to use regular expressions or any classes or methods that make use of regular expressions.
+
+Write a test plan for class RamString using the Test Plan Template document. Specifically, you should write the plan for several different tests for each method of in the interface.
+Make sure that the tests are not trivial (i.e., have a specific purpose). In other words, each test should
+
+test a specific piece of functionality 
+check that the it behaves as expected. In addition, at least two of the tests for method convertDigitsToRomanNumeralsInSubstring should result in expected exceptions: 
+ArrayOutOfBoundsException and IllegalArgumentException.
+Add a concise description for each test that you implement to clarify its rationale (e.g., “This test checks whether the method convertDigitsToWordsInSubstring suitably throws an IllegalArgumentException if 
+startPosition is greater than endPosition").
+
+Save your test plan as a .pdf document before submitting. 
+
+Notes:
+
+You May NOT modify the provided interface, WackyStringInterface.
+I will run your code against a standard set of test cases to make sure that you implemented the functionality of the required methods correctly.
+Write this program in JAVA and compile it in JDK 11 or better.  
+*/
+
+
+
+/*
 Logan Miller
 CMSC 256
 February 18th, 2022
